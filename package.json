@@ -1,0 +1,29 @@
+{
+	"name": "jolla-sms-exporter",
+	"version": "1.0.0",
+	"keywords": [
+		"util",
+		"jolla",
+		"sailfisos",
+		"sms"
+	],
+	"description": "Export sms,mms and phone log from a jolla/ sailfishOS phone to an xml format usable with android sms-backup-restore",
+
+	"author": {
+		"name": "Jerome Levreau",
+		"email": "levreau.jerome@vostoksystem.com",
+		"url": "http://www.vostoksystem.com"
+	},
+	"private": true,
+	"license": "MIT",
+	"homepage": "./",
+
+	"contributors": [],
+	"scripts": {},
+	"dependencies": {
+		"better-sqlite3": "5.4.3",
+		"moment": "2.27.0",
+		"yargs": "17.5.1"
+	},
+	"main": "main.js"
+}
