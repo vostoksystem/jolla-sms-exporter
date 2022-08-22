@@ -2,32 +2,29 @@
 This cli program can extract sms, mms and phone log from the com database of Jolla/SailfishOS and export them
 into the xml file format used by Android app "sms backup & restore" from [SyncTech](https://www.synctech.com.au/sms-backup-restore/)
 
-I code it for personal purpose so I can keep some important conversation. Others alternatives are heavely bugged and produce a faulty xml
-export when they manage to process any data. Also this one can export globaly or from a single number.
+I coded it for personal purpose so I can keep some important conversation. Others alternatives are heavenly bugged and produce a faulty xml export when they manage to process any data. Also this one can export globally or from a single number number.
 
-I coded it using the sql schema, xml info from synctech and "retro ingenering" real export from the app.
+I coded it using the sql schema, xml info from synctech and "retro engineering" real export from the app.
 
-It work as I expected, it succesfully fully exported > 8000 sms/mms without errors in presentation but I can't garanty It won't produce error on your side.
+It work as I expected, it successfully fully exported > 8000 sms/mms without errors in presentation but I can't guaranty It won't produce error on your side.
 
 type / format tested : sms, mms, txt, smil, image, vcard.
 I included support for audio and video but untested.
 
 Export is written in a friendly format.
-You can check it before overrading your phone at : https://www.synctech.com.au/sms-backup-restore/view-backup/
+You can check it before overriding your phone at : https://www.synctech.com.au/sms-backup-restore/view-backup/
 
 Nota : 
 Won't work properly with conversation including more than one address.
 You should be able to import older sms into a current conversation in your Android phone, as long as the phone number is the same, but
-I can't garanties you won't end with some error, such as data imported twice
-
-
+I can't guaranties you won't end with some error, such as data imported twice
 
 ## Prerequisites
 You need to have [node.js](https://nodejs.org) installed.
 Download or clone the project locally
 
 ## Install / Build
-You need an active internet connexion.
+You need an active internet connection.
 to install additional package run the command (from console) :
 ```
 npm install
@@ -66,10 +63,12 @@ node main.js -s <path to commhistory.db>
 ```
 node main.js -s <path to commhistory.db> -smes -phone 06810***** -name vanessa
 ```
-nota : app cannot use (*) char, this is for demo purpose, you really think I'll give her number !?
+nota : (*) char cannot be used in phone number, this is for demo purpose, you really think I'll give you her number !?
 
 
 ## Authors
 * **Jerome Levreau**
 
 ##Licence
+[GnuV3](https://www.gnu.org/licenses/gpl-3.0.en.html)
+
