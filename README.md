@@ -18,14 +18,17 @@ Nota :
 Won't work properly with conversation including more than one address.
 You should be able to import older sms into a current conversation in your Android phone, as long as the phone number is the same, but
 I can't guaranties you won't end with some error, such as data imported twice
+<<<<<<< HEAD
 
+=======
+>>>>>>> main
 
-## Prerequisites
+## Prerequisites
 You need to have [node.js](https://nodejs.org) installed.
 Download or clone the project locally
 
 
-## Install / Build
+## Install / Build
 You need an active internet connection.
 to install additional package run the command (from console) :
 ```
@@ -45,7 +48,7 @@ Because of new restriction, you can't access those file from regular app (like f
 Data location : /home/nemo/.local/share/commhistory/
 
 
-## Export
+## Export
 You can export all data globally or select between sms or call log, also you can select a single number to export.
 
 * show options
@@ -74,6 +77,6 @@ nota : (*) char cannot be used in phone number, this is for demo purpose, you re
 * **Jerome Levreau** levreau.jerome@vostoksystem.com https://twitter.com/j_levreau
 
 
-##Licence
+## Licence
 [GnuV3](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
