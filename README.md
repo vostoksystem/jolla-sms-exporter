@@ -18,10 +18,7 @@ Nota :
 Won't work properly with conversation including more than one address.
 You should be able to import older sms into a current conversation in your Android phone, as long as the phone number is the same, but
 I can't guaranties you won't end with some error, such as data imported twice
-<<<<<<< HEAD
 
-=======
->>>>>>> main
 
 ## Prerequisites
 You need to have [node.js](https://nodejs.org) installed.
@@ -35,15 +32,10 @@ to install additional package run the command (from console) :
 npm install
 ```
 
-in case of sqlite3 error message try :
-```
-npm run "rebuild sqlite3"
-```
-
 
 ## Configure
 You need to have the original database imported locally, including "commhistory.db" and all the data which hold mms data.
-Because of new restriction, you can't access those file from regular app (like file manager). The phone you must activate dev mode in order to have access to console. Copy to sdcard or use ssh to transfert.
+Because of new restriction, you can't access those file from regular app (like file manager). On the phone you must activate dev mode in order to have access to console. Copy to sdcard or use ssh to transfert.
 
 Data location : /home/nemo/.local/share/commhistory/
 
@@ -56,7 +48,7 @@ You can export all data globally or select between sms or call log, also you can
 node main.js 
 ```
 
-* show knows numbers
+* show know numbers
 ```
 node main.js -s <path to commhistory.db> --groups
 ```
@@ -68,7 +60,7 @@ node main.js -s <path to commhistory.db>
 
 * export just sms for a single number, adding a name
 ```
-node main.js -s <path to commhistory.db> -smes -phone 06810***** -name vanessa
+node main.js -s <path to commhistory.db> -smes -phone 0681****** -name vanessa
 ```
 nota : (*) char cannot be used in phone number, this is for demo purpose, you really think I'll give you her number !?
 
