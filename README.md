@@ -15,14 +15,15 @@ Export is written in a friendly format.
 You can check it before overriding your phone at : https://www.synctech.com.au/sms-backup-restore/view-backup/
 
 Nota : 
-Won't work properly with conversation including more than one address.
-You should be able to import older sms into a current conversation in your Android phone, as long as the phone number is the same, but
++ Won't work properly with conversation including more than one address.
+Y+ ou should be able to import older sms into a current conversation in your Android phone, as long as the phone number is the same, but
 I can't guaranties you won't end with some error, such as data imported twice
 
+Note I moved away from Jolla, I'm not working on this sofware (since it did the job for me) anymore.
 
 ## Prerequisites
-You need to have [node.js](https://nodejs.org) installed.
-Download or clone the project locally
++ You need to have [node.js](https://nodejs.org) installed. Tested and compiled with node 16 on linux. (You may have to edit the package.json in the futur)
++ Download or clone the project locally. (the entire project, not just the main.js file alone !)
 
 
 ## Install / Build

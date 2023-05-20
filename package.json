@@ -21,7 +21,7 @@
 	"contributors": [],
 	"scripts": {},
 	"dependencies": {
-		"better-sqlite3": "5.4.3",
+		"better-sqlite3": "8.3.0",
 		"moment": "2.27.0",
 		"yargs": "17.5.1"
 	},
