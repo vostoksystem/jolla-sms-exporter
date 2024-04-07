@@ -61,9 +61,9 @@ node main.js -s <path to commhistory.db>
 
 * export just sms for a single number, adding a name
 ```
-node main.js -s <path to commhistory.db> -smes -phone 0681****** -name vanessa
+node main.js -s <path to commhistory.db> -smes -phone 0673****** -name xyz
 ```
-nota : (*) char cannot be used in phone number, this is for demo purpose, you really think I'll give you her number !?
+nota : (*) char cannot be used in phone number, this is for demo purpose,
 
 
 ## Authors
